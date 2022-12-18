@@ -1,0 +1,159 @@
+/* Off list */
+ul{
+    list-style: none;
+}
+/* Body */
+body {
+    background-color: #fff;
+    color: #434455; 
+    font-family: 'Roboto';
+    letter-spacing: 0.02em;
+}
+
+/* MAIN */
+
+/* Logo */
+.logo{
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    color: #2E2F42;
+    letter-spacing: 0.03em;
+}
+.logo span{
+    color: #4D5AE5;
+}
+/* Nav */
+.site-nav a{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2E2F42;
+}
+.auth-nav a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+/* Hero */
+.hero{
+    background: #2E2F42;
+}
+.hero-tittle{
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.2;
+    color: #FFFFFF;
+}
+.hero-button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+/* Company's quality */
+.quality-tittle{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2E2F42;
+}
+.quality-info{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+/* Sections */
+.section{
+    background: #F4F4FD;
+}
+.section-tittle{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.1;
+    color: #2E2F42;
+}
+/* Team */
+.worker-image{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+}
+.worker-name{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2E2F42;
+}
+.worker-job{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+/* Footer */
+.page-footer{
+    background: #2E2F42;
+}
+.footer-logo{
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    color: #F4F4FD;
+    letter-spacing: 0.03em;
+}
+.footer-logo span{
+    color: #4D5AE5;
+}
+.footer-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #E7E9FC
+}
+
+
+/* PORTFOLIO */
+
+/* Button */
+.button-text{ 
+    
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    color: #4D5AE5;
+}
+.button-text:hover{
+    background: #4D5AE5;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+/* Works */
+.work-image{
+    background: #FFFFFF;
+    border: 0.5px solid #F4F4FD;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.work-tittle{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2E2F42;
+}
+.work-type{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
