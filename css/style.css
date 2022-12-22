@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
 /* Off list */
 ul{
     list-style: none;
@@ -6,7 +12,7 @@ ul{
 body {
     background-color: #fff;
     color: #434455; 
-    font-family: 'Roboto';
+    font-family: 'Roboto' , sans-serif;
     letter-spacing: 0.02em;
 }
 
@@ -21,6 +27,7 @@ body {
     line-height: 1.33;
     color: #2E2F42;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 .logo span{
     color: #4D5AE5;
@@ -33,12 +40,22 @@ body {
     line-height: 1.5;
     color: #2E2F42;
 }
+.site-nav a:hover,:focus{
+    cursor: pointer;
+    color: #4D5AE5;
+    text-decoration: underline;
+}
 .auth-nav a{
     text-decoration: none;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
+}
+.auth-nav a:hover,:focus{
+    cursor: pointer;
+    color: #4D5AE5;
+    text-decoration: underline;
 }
 /* Hero */
 .hero{
@@ -51,6 +68,7 @@ body {
     color: #FFFFFF;
 }
 .hero-button{
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -59,6 +77,9 @@ body {
     background: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+}
+.hero-button:hover,:focus{
+    cursor: pointer;
 }
 /* Company's quality */
 .quality-tittle{
@@ -104,6 +125,7 @@ body {
     background: #2E2F42;
 }
 .footer-logo{
+    text-transform: uppercase;
     text-decoration: none;
     font-family: 'Raleway';
     font-weight: 800;
@@ -127,7 +149,7 @@ body {
 
 /* Button */
 .button-text{ 
-    
+    font-family: 'Roboto';
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
@@ -137,7 +159,7 @@ body {
     border-radius: 4px;
     color: #4D5AE5;
 }
-.button-text:hover{
+.button-text:hover,:focus{
     background: #4D5AE5;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
@@ -147,7 +169,6 @@ body {
 /* Works */
 .work-image{
     background: #FFFFFF;
-    border: 0.5px solid #F4F4FD;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .work-tittle{
